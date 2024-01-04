@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(51, 51, 51);
+    height: 65px;
+    display:flex;
+    align-items: center;
+    position: fixed;
+
+}
+a{
+    text-decoration: none;
+     color: white; 
+   font-size: 50px;
+     margin-left: 10px;
+     align-items: center;
+     
+}
+.dot{
+    color: rgb(57, 204, 57);
+    font-size: 50px;
+}
+.HOSTHUB{
+    background-color: rgba(0, 0, 0, 0.459);
+    font-size: 25px;
+    color: rgb(155, 155, 155);
+    padding: 18px;
+    
+    
+    
+}
+.pc{
+padding: 0px;
+    margin-left: 701px;
+    font-size: 25px;
+    
+color: black;
+
+    
+}
+.mobile{ font-size: 25px;
+    
+    color: black;
+margin: 10px;
+}
+.tab{
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+}
+.plus{
+    font-size: 25px;
+    color: black;
+    transform: rotate(45deg);
+    margin: 5px;
+}
+.pc:hover{
+    color: white;
+    transition: all;
+    transition-duration: 0.75s;
+    
+}
+.mobile:hover{
+    color: white;
+    transition: all;
+    transition-duration: 0.75s;
+}
+.tab:hover{
+    color: white;
+    transition: all;
+    transition-duration: 0.75s;
+}
+.plus:hover{
+    color: white;
+    transition: all;
+    transition-duration: 0.75s;
+}
